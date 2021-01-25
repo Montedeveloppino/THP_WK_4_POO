@@ -12,11 +12,12 @@ class User
   def self.all
       return @@all_users
   end
-  def self.find_by_email(email_to_save)
-  
-
+  def self.find_by_email(email)
+  users = @@all_users.detect {|e| e.email == email}
+  return users.age
   end
 
+  
 end
 
 
