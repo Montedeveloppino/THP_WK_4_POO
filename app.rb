@@ -1,6 +1,8 @@
-require 'pry'
-require_relative '../THP_WK_4_POO/lib/event_cours.rb'
-require_relative '../THP_WK_4_POO/lib/user.rb'
+require 'bundler'
+Bundler.require
+
+require_relative 'lib/event_cours.rb'
+require_relative 'lib/user.rb'
 
 binding.pry
 
