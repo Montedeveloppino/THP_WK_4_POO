@@ -1,6 +1,8 @@
-def call_user_file
-system("ruby lib/user.rb")
-end
+require 'pry'
+require_relative '../THP_WK_4_POO/lib/event_cours.rb'
+require_relative '../THP_WK_4_POO/lib/user.rb'
 
-puts julie = User.new("julie@gmail.com",32)
-puts quentin = User.new("quentin@gmail.com",32)
+binding.pry
+
+
+
